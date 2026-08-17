@@ -8,11 +8,11 @@ def palindrome(a):
     return True
   else:
     return False
-a=int(input("Enter a number"))
+a=int(input("Enter a number: "))
 if palindrome(a):
-  print("The entered number is a palindrome")
+  print("The  number",a," is a palindrome")
 else:
-  print("The entered number is not a palindrome")
+  print("The number",a," is not a palindrome")
   
     
     
