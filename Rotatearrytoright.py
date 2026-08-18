@@ -21,3 +21,4 @@ def rotatearray(arr, k):
 arr=list(map(int,input("Enter the Array: ").split()))
 k=int(input("Enter how many times you want to rotate a Array: "))
 print(rotatearray(arr,k))
+  
